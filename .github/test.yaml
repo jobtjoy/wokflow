@@ -4,15 +4,15 @@ name: CI
 
 # Controls when the workflow will run
 on:
-workflow_dispatch:
-  inputs:
-    foldername:
-      type:choice
-      required: true
-      description: test
-      options:
-        - A
-        - B
+  workflow_dispatch:
+    inputs:
+      foldername:
+        type:choice
+        required: true
+        description: test
+        options:
+          - A
+          - B
   push:
     branches: test
 
