@@ -13,8 +13,8 @@ workflow_dispatch:
       options:
         - A
         - B
-  # push:
-  #   branches: [ "main" ]
+  push:
+    branches: test
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
