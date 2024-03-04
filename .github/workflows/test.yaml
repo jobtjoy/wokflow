@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       foldername:
-        type:choice
+        type: choice
         required: true
         description: test
         options:
